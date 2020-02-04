@@ -1,0 +1,276 @@
+@import 'fonts.css';
+:root{
+    --black: #060002;
+    --white: #ffffff;
+    --light-black: #bdbdbd;
+    --main-color: #68bf3b;
+    --f100: 'Montserrat Thin';
+--f100: 'Montserrat Thin';
+--f300: 'Montserrat Light';
+--f400: 'Montserrat Regular';
+--f700: 'Montserrat Bold';
+--f900: 'Montserrat Black';
+--col-1:calc(100%/12*1);
+--col-2:calc(100%/12*2);
+--col-3:calc(100%/12*3);
+--col-4:calc(100%/12*4);
+--col-5:calc(100%/12*5);
+--col-6:calc(100%/12*6);
+--col-7:calc(100%/12*7);
+--col-8:calc(100%/12*8);
+--col-9:calc(100%/12*9);
+--col-10:calc(100%/12*10);
+--col-11:calc(100%/12*11);
+--col-12:calc(100%/12*12);
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.justify-content-between{
+    justify-content: space-between
+}
+.justify-content-start{
+    justify-content: flex-start
+}
+.justify-content-center{
+    justify-content: center
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.text-align-center{
+    text-align: center;
+}
+
+/* ======================================Settings end====================== */
+/* ======================================HEADER start====================== */
+nav{
+    padding-top: 47px;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 24px;
+    font-family: var(--f700);
+}
+.right a{
+    color: var(--white);
+    font-size: 24px;
+    font-family: var(--f400);
+}
+header{
+    background: url(../images/header_bg.jpg) 50% 50% / cover;
+    height: 767px;
+}
+.tel{
+    margin: 0 25px 0 0;
+}
+button{
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #6ad017, #3e8801);
+}
+.right button p{
+padding: 15px;
+background: linear-gradient(to bottom, #6ad017, #3e8801);
+border-radius: 25px;
+color: var(--white);
+font-size: 24px;
+font-family: var(--f400);
+}
+.mid{
+    margin-top: 196px;
+    display: flex;
+    flex-direction: column;
+}
+.mid p{
+    color: var(--white);
+    font-size: 18px;
+    font-family: var(--f900);
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+.mid h3{
+    color: var(--white);
+    font-weight: normal;
+    font-size: 72px;
+    font-family: var(--f900);
+    padding-bottom: 15px;
+}
+.mid span{
+    color: var(--white);
+    font-weight: normal;
+    font-size: 18px;
+    font-family: var(--f400);
+}
+.mid button{
+    padding: 15px;
+
+}
+.mid button p{
+    font-family: var(--f400);
+    color: var(--white);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn p {
+    font-family: var(--f400);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+/* ======================================HEADER end====================== */
+
+.middle{
+    margin-top: 40px;
+}
+.tech{
+    width: 740px;
+}
+
+.tech h3{
+    color: var(--main-color);
+    font-family: var(--f700);
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+.tech p{
+    color: var(--light-black);
+    font-family: var(--f400);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+}
+.author p{
+    color: var(--light-black);
+    font-family: var(--f700);
+    font-weight: normal;
+    font-size: 24px;
+}.menu{
+    padding-bottom: 60px;
+}
+.menu h2{
+    font-size: 36px;
+    font-family: var(--f700);
+    font-weight: normal;
+    color: var(--main-color);
+}
+.cover{
+    padding-bottom: 50px;
+}
+ .piz{
+position: relative;
+display: flex;
+}
+ .piz span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 10px 5px;
+    color: var(--white);
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.des h2{
+    color: var(--light-black);
+    font-size: 30px;
+    font-weight: normal;
+    font-family: var(--f700);
+    margin-bottom: 33px;
+}
+.des{
+ margin-left: 32px;
+}
+.des p{
+    color: var(--light-black);
+    font-size: 14px;
+    font-weight: normal;
+    font-family: var(--f700);
+    line-height: 24px;
+}
+.buy p{
+    color: var(--light-black);
+    font-family: var(--f700);
+    font-size: 30px;
+}
+.buy p span{
+    font-family: var(--f300);
+    font-size: 18px;
+}
+.buy button p{
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--f400);
+}
+.buy button{
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.buy {
+    margin-left: 100px;
+}
+.elpicture{
+    padding-top: 28px;
+}
+.el1 h2{
+    font-weight: normal;
+    color: var(--light-black);
+    font-size: 14px;
+    font-family: var(--f700);
+    margin-bottom: 21px;
+ }
+.el1 p{
+    font-family: var(--f400);
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--light-black);
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+footer{
+    padding-top: 47px;
+    height: 200px;
+    background-color: var(--black);
+}
+.proweb{
+    font-family: var(--f100);
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--light-black);
+    margin-top: 25px;
+}
